@@ -1,0 +1,8 @@
+{
+    "apps": [
+        {
+            "appId": "385926a5",
+            "dependencyInstallCommand": "npm install"
+        }
+    ]
+}
