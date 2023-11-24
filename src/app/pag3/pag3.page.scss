@@ -7,7 +7,11 @@ body{
    font-style: italic;
    font-size: xx-large;
 }
-
+ion-grid.Scroll{
+overflow-y: auto;
+width: 100%;
+height: 100%;
+}
 ion-header.header{
     width: 100%;
     height: 10%;
@@ -64,10 +68,10 @@ ion-button {
   .comboIma{
     height: 100%;
     width: 30%;
-    
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 10px;
   }
   .rowtext{
     height: 50%;
@@ -75,17 +79,18 @@ ion-button {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 10px;
   }
   .slogan{
     text-align: center;
-    height: 30%;
+    height: 45%;
   }
   .scrolleo{
     
     height: 70%;
   }
   ion-segment.segmento{
-    
+
     display: flex;
     
  }
